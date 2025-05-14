@@ -1,6 +1,17 @@
 ## Hi there 👋
 
 <p align="center"><img src="images/header/MyHeader.png" alt="Cover Image" /></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center"><img src="images/header/MyHeader1.svg" alt="Cover Image" /></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<p align="center"><img src="images/header/MyHeader2.svg" alt="Cover Image" /></p>
+
 
 <!-- <h3 align="center">Social Media</h3> -->
 <!-- 
