@@ -5,6 +5,10 @@ on:
     - cron: "40 17 * * *"  # 22:45 IST
   workflow_dispatch:
 
+# This is the critical fix:
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
