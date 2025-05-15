@@ -2,7 +2,7 @@ name: GitHub Profile 3D Contrib
 
 on:
   schedule:
-    - cron: "40 17 * * *"  # 22:45 IST
+    - cron: "52 16 * * *"  # 22:45 IST
   workflow_dispatch:
 
 # This is the critical fix:
