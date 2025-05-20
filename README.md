@@ -2,6 +2,14 @@
 
 <p align="center"><img src="images/header/MyHeader.png" alt="Cover Image" /></p>
 
+<br/>
+<br/>
+<br/>
+<br/>
+
+<!-- <img src="programming.gif" alt="Computer man" style="width:48px;height:48px;"> -->
+<p align="center"><img src="images/gif/desktopGif.gif" alt="desktop gif"></img></p>
+
 <!-- <h3 align="center">Social Media</h3> -->
 <!-- 
 <p align="center">
