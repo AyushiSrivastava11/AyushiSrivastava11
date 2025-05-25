@@ -1,6 +1,7 @@
 ## Hi there 👋
 
-<p align="center"><img src="images/header/MyHeader.png" alt="Cover Image" /></p>
+<p align="center"><img src="images/header/HEADER.svg" alt="Cover Image" /></p>
+
 
 <br/>
 <br/>
