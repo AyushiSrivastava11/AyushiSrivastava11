@@ -5,7 +5,6 @@ on:
     - cron: "52 16 * * *"  # 22:45 IST
   workflow_dispatch:
 
-# This is the critical fix:
 permissions:
   contents: write
 
@@ -31,4 +30,6 @@ jobs:
 
           git add -A .
           git commit -m "chore: updated profile contrib status" || echo "Nothing to commit"
+          
+          git pull --rebase origin main || echo "Nothing to rebase"
           git push
