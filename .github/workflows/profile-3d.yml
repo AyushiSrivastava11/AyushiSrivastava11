@@ -2,7 +2,7 @@ name: GitHub Profile 3D Contrib
 
 on:
   schedule:
-    - cron: "52 16 * * *"  # 22:45 IST
+    - cron: "52 16 * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,6 @@ jobs:
     name: Generate GitHub Profile 3D Contrib
     steps:
       - uses: actions/checkout@v3
-
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -25,11 +24,7 @@ jobs:
           git config --global user.name '${{ github.repository_owner }}'
           git config --global user.email '${{ github.repository_owner }}@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-
-          echo "$(date)" > last_update.txt  # force a file change
-
+          
           git add -A .
           git commit -m "chore: updated profile contrib status" || echo "Nothing to commit"
-          
-          git pull --rebase origin main || echo "Nothing to rebase"
           git push
